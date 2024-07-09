@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.banner-container{
+    width: 1220px;
+   height: 552px;
+   border: 2px solid red;
+   margin: 0 auto;
+   margin-top: 100px;
+   background-image:url(../assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 600px; */
+    text-align: center;
+}
+ .banner-cont .img{
+    width: 163.03px;
+height: 200px;
+margin: 25px 630px 20px 630px;
+}
+.banner-cont .h1 {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 700;
+}
+.banner-cont .p1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 300;
+margin: 5px  15px 200px 15px;
+}
