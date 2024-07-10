@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 /* banner container */
@@ -511,6 +513,37 @@ font-size: 16px;
 font-weight: 500;
 cursor: pointer;
 }
+.footer1{
+    width: 1440px;
+height: 100px;
+border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+margin:0 auto;
+
+}
+
+ .footer1 .h6{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 500;
+text-align:left;
+padding-top: 50px;
+padding-left: 100px;
+
+}
+.footer1 .footer2{
+    width: 160px;
+    height: 40;
+display: flex;
+flex-direction: row;
+justify-content:space-evenly;
+align-items: center;
+margin-top: -80px;
+padding-left: 1200px;
+}
+
 
 
 
