@@ -464,7 +464,7 @@ margin-right: 200px;
 #footer{
     width: 1140px;
 height: 313px;
-border: 2px solid red;
+/* border: 2px solid red; */
 margin: 0 auto;
 margin-top: 50px;
 background-image: url(../assets/handshake.jpg);
